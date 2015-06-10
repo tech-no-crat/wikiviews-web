@@ -1,0 +1,85 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700&subset=latin,greek);
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #F7F7F7;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center
+}
+
+a {
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+h1, h2 {
+  text-align: center;
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+fieldset {
+  display: inline-block;
+  border: none;
+  padding: 0;
+
+  label {
+    display: block;
+    font-size: 14px;
+  }
+
+  input {
+    width: 100%;
+  }
+}
+
+#article-name {
+  display: block;
+  width: 500px;
+  margin: 0 auto;
+
+  font-size: 20px;
+  input {
+    font-size: 20px;
+    padding: 4px 2px;
+  }
+}
+
+#details {
+  margin: 20px auto;
+  width: 500px;
+  fieldset {
+    width: 200px;
+  }
+  fieldset:last-of-type {
+    margin-left: 90px;
+  }
+}
+
+#submit {
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+div#jobs {
+  display: none;
+}
+
+table#jobs {
+  width: 600px;
+  margin: 0 auto;
+  thead {
+    text-align: center;
+  }
+}

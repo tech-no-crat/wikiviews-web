@@ -1,0 +1,33 @@
+include ./head
+
+h1 Wikiviews
+h2#subtitle Produces CSVs containing historic, per-day wikipedia article view counts for a given article
+
+form(method='POST' action='/')
+  fieldset#article-name
+    label Article
+    input(name='article' type='text', placeholder='Bitcoin')
+
+  #details
+    fieldset#start
+      label Start month
+      input(name='start' type='month' min='2001-01' max='2015-12' value='2010-01')
+
+    fieldset#end
+      label End month
+      input(name='end' type='month' min='2001-01' max='2015-12' value='2015-01')
+
+  input#submit(type='submit' value='Generate CSV')
+
+#jobs
+  h3 Your jobs
+  table#jobs.pure-table.pure-table-horizontal
+    thead
+      td Article
+      td Start month
+      td End month
+      td Status
+    tbody
+
+
+include ./footer

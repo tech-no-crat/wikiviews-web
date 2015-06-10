@@ -1,0 +1,16 @@
+{
+  "name": "wikiviews-web-interface",
+  "description": "A web interface for accessing the functionality of the wikiviews gem",
+  "version": "0.0.1",
+  "private": "true",
+  "dependencies": {
+    "body-parser": "*",
+    "node-sass-middleware": "*",
+    "express-session": "*",
+    "coffee-middleware": "*",
+    "jade": "*",
+    "express": "~4.9.0",
+    "wikiviews": "*",
+    "sanitize-filename": "*"
+  }
+}
